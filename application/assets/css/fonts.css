@@ -1,0 +1,28 @@
+h1 {font-size:36px!}
+h2 {font-size:32px!}
+h3 {font-size:24px!}
+h4 {font-size:24px!}
+h5 {font-size:24px!}
+h6 {font-size:24px!}
+
+
+.slide {
+	color:white;
+}
+
+p, cite, a, blockquote, li, span, div {
+	font-size:18px;
+}
+
+footer p, footer cite,footer blockquote,footer li,footer span,footer div{
+	color:white;
+}
+
+
+/*Formatting Classes*/
+.center {
+	width:1000px;
+	text-align:center;
+}
+
+.bold {font-weight:bold;}

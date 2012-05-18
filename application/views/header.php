@@ -40,6 +40,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?php echo base_url()?>application/assets/js/jquery.js"></script>
+		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
     <script src="<?php echo base_url()?>application/assets/js/bootstrap-transition.js"></script>
     <script src="<?php echo base_url()?>application/assets/js/bootstrap-alert.js"></script>
     <script src="<?php echo base_url()?>application/assets/js/bootstrap-modal.js"></script>
@@ -59,13 +60,8 @@
 		<script type="text/javascript">
 		
 		
-		<!-- slides -->
+		<!-- Slides -->
 
-			<!-- include jQuery library -->
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-			<!-- include Cycle plugin -->
-			<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
-			<script type="text/javascript">
 			$(document).ready(function() {
 			    $('.slides').cycle({
 			        fx: 'shuffle',
